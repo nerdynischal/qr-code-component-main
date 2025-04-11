@@ -1,4 +1,6 @@
 body {
+  font-family: Outfit;
+  font-size: 15px;
   background-color: hsl(212, 45%, 89%);
   display: flex;
   flex-direction: column;
@@ -18,4 +20,19 @@ body {
 
 .card img {
   border-radius: 8px;
+}
+
+.card p {
+  text-align: center;
+  margin-top: 0;
+  color: hsl(216, 15%, 48%);
+  font-size: 400;
+}
+
+.card h1 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: hsl(218, 44%, 22%);
 }
